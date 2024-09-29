@@ -1,6 +1,6 @@
 # scripts/extract.py
 import requests
-from config import ACCESS_TOKEN, BASE_URL
+from scripts.config import ACCESS_TOKEN, BASE_URL
 
 def get_facebook_page_data(page_id):
     url = f"{BASE_URL}/{page_id}/posts?access_token={ACCESS_TOKEN}"
